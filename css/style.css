@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'druk';
+    src: url('../fonts/druk.ttf');
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.druk{
+    font-family: 'druk';
+}
+
+.header{
+    background: linear-gradient(black, transparent),url("../img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.contact{
+    border: 1px solid #D12933;
+    border-radius: 20px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h1{
+    font-size: 38px;
+}
+.btn-red{
+    background-color: #D12933;
+    color: white;
+    border-radius: 20px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+    opacity: 1;
+    color: white;
+}
+.slick-dots {
+    bottom: -75px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #D12933;
+}
