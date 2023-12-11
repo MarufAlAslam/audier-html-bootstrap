@@ -51,3 +51,11 @@ h1{
     opacity: 1;
     color: #D12933;
 }
+
+
+.bg-red{
+    background-color: #D12933;
+}
+.fs-26{
+    font-size: 26px;
+}
