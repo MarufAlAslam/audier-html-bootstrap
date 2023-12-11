@@ -83,3 +83,7 @@ h1{
     background-size: cover;
     background-position: right;
 }
+
+h2{
+    font-size: 30px !important;
+}
