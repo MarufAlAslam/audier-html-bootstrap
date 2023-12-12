@@ -83,10 +83,10 @@ h1{
 }
 
 .publishers{
-    background: linear-gradient(90deg,rgba(0,0,0,0.5), transparent),url("../img/pub.jpg");
+    background: linear-gradient(90deg,#21252A, #21252a67),url("../img/pub.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: left;
 }
 
 h2{
@@ -99,4 +99,8 @@ h2{
 
 .fs-18{
     font-size: 18px;
+}
+
+.bg-blue{
+    background-color: #21252ace;
 }
