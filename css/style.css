@@ -104,3 +104,9 @@ h2{
 .bg-blue{
     background-color: #21252ace;
 }
+.contact-section{
+    background: linear-gradient(90deg,#21252A, #21252a67),url("../img/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
