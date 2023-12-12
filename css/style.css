@@ -1,112 +1,129 @@
 @font-face {
-    font-family: 'druk';
-    src: url('../fonts/druk.ttf');
+  font-family: "druk";
+  src: url("../fonts/druk.ttf");
 }
 
-*{
-    font-family: 'Open Sans', sans-serif;
+* {
+  font-family: "Open Sans", sans-serif;
 }
 
-.druk{
-    font-family: 'druk';
+.druk {
+  font-family: "druk";
 }
 
-.logo{
-    position: relative;
-    top: -4px;
+.logo {
+  position: relative;
+  top: -4px;
 }
 
-.header{
-    background: linear-gradient(black, transparent),url("../img/hero.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+.header {
+  background: linear-gradient(black, transparent), url("../img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
-.contact{
-    border: 1px solid #D12933;
-    border-radius: 20px;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+.contact {
+  border: 1px solid #d12933;
+  border-radius: 20px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 
-.py-100{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-h1{
-    font-size: 38px;
+h1 {
+  font-size: 38px;
 }
-.btn-red{
-    background-color: #D12933;
-    color: white;
-    border-radius: 20px;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+.btn-red {
+  background-color: #d12933;
+  color: white;
+  border-radius: 20px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 
 .slick-dots li button:before {
-    font-size: 15px;
-    opacity: 1;
-    color: white;
+  font-size: 15px;
+  opacity: 1;
+  color: white;
 }
 .slick-dots {
-    bottom: -75px;
+  bottom: -75px;
 }
 .slick-dots li.slick-active button:before {
-    opacity: 1;
-    color: #D12933;
+  opacity: 1;
+  color: #d12933;
 }
 
-
-.bg-red{
-    background-color: #D12933;
+.bg-red {
+  background-color: #d12933;
 }
-.fs-26{
-    font-size: 26px;
-}
-
-.py-100{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.fs-26 {
+  font-size: 26px;
 }
 
-.text-red{
-    color: #D12933;
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.fs-20{
-    font-size: 20px;
+
+.text-red {
+  color: #d12933;
+}
+.fs-20 {
+  font-size: 20px;
 }
 
 .column-img {
-    height: 100px;
-    margin-bottom: 30px;
+  height: 100px;
+  margin-bottom: 30px;
 }
 
-.publishers{
-    background: linear-gradient(90deg,#21252A, #21252a67),url("../img/pub.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+.publishers {
+  background: linear-gradient(90deg, #21252a, #21252a67), url("../img/pub.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
 
-h2{
-    font-size: 30px !important;
+h2 {
+  font-size: 30px !important;
 }
 
-.digital{
-    background-color: #F1F0F1;
+.digital {
+  background-color: #f1f0f1;
 }
 
-.fs-18{
-    font-size: 18px;
+.fs-18 {
+  font-size: 18px;
 }
 
-.bg-blue{
-    background-color: #21252ace;
+.bg-blue {
+  background-color: #21252ace;
 }
-.contact-section{
-    background: linear-gradient(90deg,#21252A, #21252a67),url("../img/contact.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+.contact-section {
+  background: linear-gradient(90deg, #21252a, #21252a67),
+    url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+footer {
+  background-color: #1d242c;
+}
+
+.footer-link {
+  line-height:  2.2;
+  display: block;
+}
+
+.footer-link:hover {
+  color: #d12933 !important;
+}
+
+.fs-14{
+    font-size: 14px;
 }
